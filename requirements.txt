@@ -1,11 +1,7 @@
 pandas
-sklearn.linear_model
-sklearn.preprocessing
-os
-statsmodels.stats.contingency_tables
-matplotlib.pyplot
+scikit-learn
+statsmodels
+matplotlib
 seaborn
 numpy
-scipy.stats
-math
-argparse
+scipy
