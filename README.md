@@ -51,13 +51,13 @@ You need to provide a CSV file with the following structure:
 Clone the repository or download the files directly:
 
 ```bash
-git clone https://github.com/YourUsername/PRS_PSM.git
-cd PRS_PSM
+git clone https://github.com/HadasaK1/PRIMA.git
+cd PRIMA
 ```
 
 Make sure you have:
 
-* `PRS_PSM.py` (main script)
+* `PRIMA.py` (main script)
 * `requirements.txt` (dependencies list)
 
 ---
@@ -79,7 +79,7 @@ pip install -r requirements.txt
 Run the script using:
 
 ```bash
-python PRS_PSM.py [exposure_pheno] [outcome_pheno] [input_csv_file] [output_path]
+python PRIMA.py [exposure_pheno] [outcome_pheno] [input_csv_file] [output_path]
 ```
 
 ### **Example**
@@ -94,7 +94,7 @@ Suppose:
 Run:
 
 ```bash
-python PRS_PSM.py Diabetes HeartDisease data/input_dataset.csv results/
+python PRIMA.py Diabetes HeartDisease data/input_dataset.csv results/
 ```
 
 This will generate matched datasets and save them in the `results/` directory.
