@@ -1,8 +1,8 @@
-# **PRS-PSM: Polygenic Risk Score Propensity Score Matching**
+# **PRIMA: Polygenic Risk–Integrated Matching Approach**
 
-**PRS-PSM** is a Python-based tool for performing **propensity score matching (PSM)** to explore causal relationships between two diseases, **A (exposure)** and **B (outcome)**.
+**PRIMA** is a Python-based tool for performing **propensity score matching (PSM)** to explore causal relationships between two diseases, **A (exposure)** and **B (outcome)**.
 
-Unlike classical PSM that only balances clinical covariates, **PRS-PSM also balances genetic risk** by incorporating the **Polygenic Risk Score (PRS)** of the exposure disease.
+Unlike classical PSM that only balances clinical covariates, **PRIMA also balances genetic risk** by incorporating the **Polygenic Risk Score (PRS)** of the exposure disease.
 
 This helps to **reduce genetic confounding** and provides a cleaner comparison between cases and controls.
 
@@ -117,7 +117,7 @@ The script will produce:
 ## **Recommended Workflow**
 
 1. **Prepare input data** → Clean data, ensure correct coding and naming.
-2. **Run PRS-PSM** → Generate matched datasets.
+2. **Run PRIMA** → Generate matched datasets.
 3. **Evaluate balance** → Check that covariates and PRS are well balanced.
 4. **Perform causal analysis** → Use matched data for downstream statistical testing.
 
